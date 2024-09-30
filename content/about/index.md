@@ -6,8 +6,15 @@ eleventyNavigation:
 ---
 # About Me
 
-Hi there!
+Hi there! It's Yubing.
 
-You’ve reached the personal website of Yubing Zhang.
+I am currently an undergraduate student studying computer science in School of Computing, National University of Singapore.
 
-I am currently an undergraduate student studying Computer Science in School of Computing, National University of Singapore.
+I am currently reachable at [joseph.zyb@gmail.com](mailto://joseph.zyb@gmail.com) and [yubing@u.nus.edu](mailto://yubing@u.nus.edu). And here are some useful links:
+* GitHub: [@teleohead](https://github.com/teleohead)
+* LinkedIn: [@teleohead](https://linkedin.com/in/teleohead)
+* Instagram: [@teleohead](https://instagram.com/teleohead)
+
+
+
+*This site is proudly powered by [11ty](https://www.11ty.dev).*
