@@ -6,4 +6,8 @@ eleventyNavigation:
 ---
 # About Me
 
-I am a person that writes stuff.
+Hi there!
+
+You’ve reached the personal website of Yubing Zhang.
+
+I am currently an undergraduate student studying Computer Science in School of Computing, National University of Singapore.
