@@ -18,3 +18,5 @@ I am currently reachable at [joseph.zyb@gmail.com](mailto://joseph.zyb@gmail.com
 
 
 *This site is proudly powered by [11ty](https://www.11ty.dev).*
+
+**Copyright 2024 Yubing Zhang. All rights reserved.**
