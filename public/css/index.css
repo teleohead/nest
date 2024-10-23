@@ -4,14 +4,12 @@
 	src: url('../fonts/LucidaGrande.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
-	font-display: swap;
 }
 @font-face {
 	font-family: "Lucida Grande";
 	src: url('../fonts/LucidaGrande-Bold.woff2') format('woff2');
 	font-weight: bold;
 	font-style: normal;
-	font-display: swap;
 }
 :root {
 	--font-family: Lucida Grande, -apple-system, system-ui, sans-serif;
