@@ -1,18 +1,43 @@
 /* Defaults */
-@font-face {
-	font-family: "Lucida Grande";
-	src: url('/fonts/LucidaGrande.woff2') format('woff2');
-	font-weight: normal;
+/* @font-face {
+	font-family: "Feature Display";
+	src: url('/fonts/FeatureDisplay-Light-Web.woff2') format('woff2');
+	font-weight: 300;
 	font-style: normal;
 }
 @font-face {
-	font-family: "Lucida Grande";
-	src: url('/fonts/LucidaGrande-Bold.woff2') format('woff2');
-	font-weight: bold;
+	font-family: "Feature Display";
+	src: url('/fonts/FeatureDisplay-LightItalic-Web.woff2') format('woff2');
+	font-weight: 300;
+	font-style: italic;
+} */
+@font-face {
+	font-family: "Feature Display";
+	src: url('/fonts/FeatureDisplay-Regular-Web.woff2') format('woff2');
+	font-weight: 400;
 	font-style: normal;
 }
+@font-face {
+	font-family: "Feature Display";
+	src: url('/fonts/FeatureDisplay-RegularItalic-Web.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Feature Display";
+	src: url('/fonts/FeatureDisplay-Medium-Web.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Feature Display";
+	src: url('/fonts/FeatureDisplay-MediumItalic-Web.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+}
+
 :root {
-	--font-family: Lucida Grande, -apple-system, system-ui, sans-serif;
+	--font-family: Feature Display, -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
@@ -27,7 +52,7 @@
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
 	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	/* --text-color-link-visited: #17050F; */
 
 	--syntax-tab-size: 2;
 }
@@ -41,7 +66,7 @@
 		/* --text-color is assigned to --color-gray-_ above */
 		--text-color-link: #1493fb;
 		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		/* --text-color-link-visited: #a6a6f8; */
 
 		--background-color: #15202b;
 	}
@@ -93,10 +118,13 @@ li {
 a[href] {
 	color: var(--text-color-link);
 }
-a[href]:visited {
+/*a[href]:visited {
 	color: var(--text-color-link-visited);
+}*/
+a[href]:hover {
+	background-color: var(--text-color);
+	color: var(--background-color);
 }
-a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
 }
@@ -164,7 +192,7 @@ header {
 }
 .home-link {
 	font-size: 1em; /* 16px /16 */
-	font-weight: 700;
+	font-weight: 500;
 	margin-right: 2em;
 }
 .home-link:link:not(:hover) {
@@ -220,7 +248,7 @@ header {
 }
 .postlist-link {
 	font-size: 1.1875em; /* 19px /16 */
-	font-weight: 700;
+	font-weight: 500;
 	flex-basis: calc(100% - 1.5rem);
 	padding-left: .25em;
 	padding-right: .5em;
@@ -229,7 +257,7 @@ header {
 	text-decoration-thickness: 1px;
 }
 .postlist-item-active .postlist-link {
-	font-weight: bold;
+	font-weight: 500;
 }
 
 /* Tags */
@@ -265,9 +293,9 @@ header {
 	margin-left: .1em;
 }
 a[href].header-anchor,
-a[href].header-anchor:visited {
+/* a[href].header-anchor:visited {
 	color: transparent;
-}
+} */
 a[href].header-anchor:focus,
 a[href].header-anchor:hover {
 	text-decoration: underline;
